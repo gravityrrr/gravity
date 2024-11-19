@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "cmath": "c",
+        "stdio.h": "c",
+        "math.h": "c",
+        "class": "cpp"
+    },
+    "cSpell.ignoreWords": [
+        "acti"
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
+}
