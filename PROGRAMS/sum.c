@@ -5,13 +5,13 @@ int main(){
     printf("enter the value of n: ");
     scanf("%d",&n);
 
-    int i = 1;
-    int sum ;
+    int i = 1,sum;
+    
     while(i<=n)
     {
-        sum = sum + i ; 
-        i = i + 1;
+        sum +=i ; 
+        i += 1;
     }
 
-    printf("Sum of n numbers = %d  %d",sum , ((n * (n+1))/2));
+    printf("Sum of n numbers = %d  %d",sum);
 }
